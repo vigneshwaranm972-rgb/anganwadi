@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Anganwadi Health"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Anganwadi"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.WorkerRegisterActivity" android:exported="false"/>
+        <activity android:name=".activities.ParentRegisterActivity" android:exported="false"/>
+        <activity android:name=".activities.LoginActivity" android:exported="false"/>
+        <activity android:name=".activities.WorkerDashboardActivity" android:exported="false"/>
+        <activity android:name=".activities.ParentDashboardActivity" android:exported="false"/>
+        <activity android:name=".activities.ChildDetailActivity" android:exported="false"/>
+        <activity android:name=".activities.AddChildActivity" android:exported="false"/>
+        <activity android:name=".activities.AttendanceActivity" android:exported="false"/>
+        <activity android:name=".activities.ReportsActivity" android:exported="false"/>
+        <activity android:name=".activities.NotificationActivity"   android:exported="false"/>
+        <activity android:name=".activities.WorkerRegisterActivity" android:exported="false"/>
+        <activity android:name=".activities.ParentRegisterActivity" android:exported="false"/>
+        <activity android:name=".activities.EditChildActivity"  android:exported="false"/>
+        <activity android:name=".activities.NutritionActivity"  android:exported="false"/>
+
+    </application>
+</manifest>

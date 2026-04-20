@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anganwadi Health</string>
+    <string name="login">Login</string>
+    <string name="worker">Worker</string>
+    <string name="parent">Parent</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="children">Children</string>
+    <string name="attendance">Attendance</string>
+    <string name="reports">Reports</string>
+    <string name="logout">Logout</string>
+    <string name="add_child">Add Child</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="app_logo_desc">App Logo</string>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="nutrition_options">
+        <item>Normal</item>
+        <item>Moderate</item>
+        <item>Severe</item>
+    </string-array>
+</resources>
