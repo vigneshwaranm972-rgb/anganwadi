@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_badge_orange.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\badge_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_add_child.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_add_child.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_edit_child.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_edit_child.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_card_blue.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\card_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_nutrition.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_nutrition.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_gradient_bg.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\gradient_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_app_logo.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\app_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_reports.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_parent_dashboard.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_parent_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_card_red.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\card_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_card_orange.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\card_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_card_green.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\card_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_circle_white_alpha.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\circle_white_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_circle_green.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\circle_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_notifications.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\menu_worker_nav.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\menu\\worker_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_item_child.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\item_child.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_item_attendance.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\item_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_worker_dashboard.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_worker_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_ic_tick_green.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\ic_tick_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_parent_register.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_parent_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_item_vaccination.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\item_vaccination.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_input_bg.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\input_bg.xml"
+    },
+    {
+        "merged": "com.anganwadi.app-debug-38:/layout_activity_login.xml.flat",
+        "source": "com.anganwadi.app-main-40:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_worker_register.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_worker_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_attendance.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_activity_child_detail.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\activity_child_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_item_nutrition_history.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\item_nutrition_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_dialog_add_growth.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\dialog_add_growth.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_ic_cross_red.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\ic_cross_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\color_nav_selector.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\color\\nav_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_badge_green.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\badge_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\drawable_badge_red.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\drawable\\badge_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-debug-38:\\layout_item_attendance_toggle.xml.flat",
+        "source": "C:\\Users\\Dhanush\\.gradle\\daemon\\8.13\\com.anganwadi.app-main-40:\\layout\\item_attendance_toggle.xml"
+    }
+]

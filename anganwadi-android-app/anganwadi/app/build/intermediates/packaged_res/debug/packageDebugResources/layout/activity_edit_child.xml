@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:layout_marginBottom="20dp">
+            <ImageButton android:id="@+id/btnBack" android:layout_width="40dp" android:layout_height="40dp"
+                android:src="@android:drawable/ic_media_previous" android:background="@null"/>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Edit Child Profile" android:textSize="20sp"
+                    android:textStyle="bold" android:textColor="@color/text"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Update child information" android:textSize="12sp" android:textColor="@color/muted"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView android:layout_width="match_parent"
+            android:layout_height="wrap_content" app:cardCornerRadius="16dp"
+            app:cardElevation="4dp" android:layout_marginBottom="16dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:padding="20dp">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="FULL NAME" android:textSize="11sp" android:textColor="@color/muted"
+                    android:textAllCaps="true" android:layout_marginBottom="6dp"/>
+                <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="50dp"
+                    android:padding="12dp" android:background="@drawable/input_bg"
+                    android:inputType="textPersonName" android:layout_marginBottom="14dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="DATE OF BIRTH (YYYY-MM-DD)" android:textSize="11sp" android:textColor="@color/muted"
+                    android:textAllCaps="true" android:layout_marginBottom="6dp"/>
+                <EditText android:id="@+id/etDob" android:layout_width="match_parent" android:layout_height="50dp"
+                    android:padding="12dp" android:background="@drawable/input_bg"
+                    android:inputType="date" android:layout_marginBottom="14dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="GENDER" android:textSize="11sp" android:textColor="@color/muted"
+                    android:textAllCaps="true" android:layout_marginBottom="6dp"/>
+                <Spinner android:id="@+id/spGender" android:layout_width="match_parent" android:layout_height="50dp"
+                    android:background="@drawable/input_bg" android:layout_marginBottom="14dp"
+                    android:entries="@array/gender_options"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="MOTHER'S NAME" android:textSize="11sp" android:textColor="@color/muted"
+                    android:textAllCaps="true" android:layout_marginBottom="6dp"/>
+                <EditText android:id="@+id/etMother" android:layout_width="match_parent" android:layout_height="50dp"
+                    android:padding="12dp" android:background="@drawable/input_bg"
+                    android:inputType="textPersonName" android:layout_marginBottom="14dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="FATHER'S NAME" android:textSize="11sp" android:textColor="@color/muted"
+                    android:textAllCaps="true" android:layout_marginBottom="6dp"/>
+                <EditText android:id="@+id/etFather" android:layout_width="match_parent" android:layout_height="50dp"
+                    android:padding="12dp" android:background="@drawable/input_bg"
+                    android:inputType="textPersonName" android:layout_marginBottom="14dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="PHONE NUMBER" android:textSize="11sp" android:textColor="@color/muted"
+                    android:textAllCaps="true" android:layout_marginBottom="6dp"/>
+                <EditText android:id="@+id/etPhone" android:layout_width="match_parent" android:layout_height="50dp"
+                    android:padding="12dp" android:background="@drawable/input_bg"
+                    android:inputType="phone" android:layout_marginBottom="14dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="ADDRESS" android:textSize="11sp" android:textColor="@color/muted"
+                    android:textAllCaps="true" android:layout_marginBottom="6dp"/>
+                <EditText android:id="@+id/etAddress" android:layout_width="match_parent" android:layout_height="70dp"
+                    android:padding="12dp" android:background="@drawable/input_bg"
+                    android:inputType="textMultiLine" android:gravity="top" android:layout_marginBottom="20dp"/>
+
+                <ProgressBar android:id="@+id/progressBar"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_gravity="center" android:visibility="gone"
+                    android:indeterminateTint="@color/green_dark" android:layout_marginBottom="8dp"/>
+
+                <Button android:id="@+id/btnSave"
+                    android:layout_width="match_parent" android:layout_height="52dp"
+                    android:text="SAVE CHANGES" android:textSize="16sp" android:textStyle="bold"
+                    android:backgroundTint="@color/green_dark" android:textColor="@color/white"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <View android:layout_width="match_parent" android:layout_height="30dp"/>
+    </LinearLayout>
+</ScrollView>

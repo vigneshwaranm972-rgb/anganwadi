@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Top Bar -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:background="@color/white"
+            android:padding="16dp" android:elevation="4dp" android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/app_logo"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="@string/app_logo_desc"/>
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                android:orientation="vertical" android:layout_weight="1">
+                <TextView android:id="@+id/tvWelcome"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textSize="18sp" android:textStyle="bold" android:textColor="@color/text"/>
+                <TextView android:id="@+id/tvDate"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textSize="12sp" android:textColor="@color/muted"/>
+            </LinearLayout>
+
+            <TextView android:id="@+id/tvSyncStatus"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="11sp" android:textColor="@color/green_dark"/>
+
+            <ImageButton android:id="@+id/btnSync"
+                android:layout_width="36dp" android:layout_height="36dp"
+                android:src="@android:drawable/stat_notify_sync"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/green_dark"
+                android:layout_marginStart="8dp"
+                android:contentDescription="Sync Now"/>
+
+            <ImageButton android:id="@+id/btnLogout"
+                android:layout_width="36dp" android:layout_height="36dp"
+                android:src="@android:drawable/ic_lock_power_off"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/red"
+                android:layout_marginStart="8dp"
+                android:contentDescription="Logout"/>
+        </LinearLayout>
+
+        <ProgressBar android:id="@+id/progressBar"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" android:visibility="gone"
+            android:indeterminateTint="@color/green_dark" android:layout_marginTop="8dp"/>
+
+        <ScrollView android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1" android:padding="12dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Stat Cards -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:layout_marginBottom="8dp">
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical"
+                        android:background="@drawable/card_green" android:padding="16dp" android:layout_margin="4dp">
+                        <TextView android:id="@+id/tvTotal" android:text="..." android:textSize="28sp"
+                            android:textStyle="bold" android:textColor="@color/green_dark"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="TOTAL" android:textSize="11sp" android:textColor="@color/muted" android:textAllCaps="true"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical"
+                        android:background="@drawable/card_blue" android:padding="16dp" android:layout_margin="4dp">
+                        <TextView android:id="@+id/tvPresent" android:text="..." android:textSize="28sp"
+                            android:textStyle="bold" android:textColor="@color/blue"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="PRESENT" android:textSize="11sp" android:textColor="@color/muted" android:textAllCaps="true"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:layout_marginBottom="16dp">
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical"
+                        android:background="@drawable/card_red" android:padding="16dp" android:layout_margin="4dp">
+                        <TextView android:id="@+id/tvMalnourished" android:text="..." android:textSize="28sp"
+                            android:textStyle="bold" android:textColor="@color/red"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="AT RISK" android:textSize="11sp" android:textColor="@color/muted" android:textAllCaps="true"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical"
+                        android:background="@drawable/card_orange" android:padding="16dp" android:layout_margin="4dp"
+                        android:visibility="gone">
+                        <TextView android:id="@+id/tvVaccPending" android:text="..." android:textSize="28sp"
+                            android:textStyle="bold" android:textColor="@color/orange"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="VACC DUE" android:textSize="11sp" android:textColor="@color/muted" android:textAllCaps="true"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- ✅ FEATURE 1: Search Bar -->
+                <EditText android:id="@+id/etSearch"
+                    android:layout_width="match_parent" android:layout_height="50dp"
+                    android:hint="&#128269; Search child by name or phone..."
+                    android:padding="12dp" android:background="@drawable/input_bg"
+                    android:inputType="textPersonName"
+                    android:imeOptions="actionSearch"
+                    android:drawablePadding="8dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="All Children" android:textSize="16sp"
+                    android:textStyle="bold" android:textColor="@color/text"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- Test Connection Button -->
+                <Button android:id="@+id/btnTestSync"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="Test Server Connection"
+                    android:backgroundTint="@color/blue"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="12dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+                <!-- No result message -->
+                <TextView android:id="@+id/tvNoResult"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="No children match your search."
+                    android:textSize="14sp" android:textColor="@color/muted"
+                    android:visibility="gone" android:layout_gravity="center"
+                    android:layout_marginTop="20dp" android:layout_marginBottom="20dp"/>
+
+                <androidx.cardview.widget.CardView android:layout_width="match_parent"
+                    android:layout_height="wrap_content" app:cardCornerRadius="16dp" app:cardElevation="4dp">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rvChildren"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:padding="8dp" android:nestedScrollingEnabled="false"/>
+                </androidx.cardview.widget.CardView>
+
+                <View android:layout_width="match_parent" android:layout_height="80dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end" android:layout_margin="72dp"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/green_dark" app:tint="@color/white"
+        android:contentDescription="Add Child"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_gravity="bottom" app:menu="@menu/worker_nav"
+        app:itemIconTint="@color/nav_selector" app:itemTextColor="@color/nav_selector"
+        android:background="@color/white" app:labelVisibilityMode="labeled"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
